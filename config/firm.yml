@@ -1,15 +1,27 @@
 firm:
-  layout:       'layout'
-  sass_dir:     'trst/assets/stylesheets/asrv'
-  css_dir:      'public/stylesheets/asrv'
-  images_dir:   'public/images/asrv'
-  css_path:     '/stylesheets/asrv'
-  images_path:  '/images/asrv'
-  i18n_path:    'trst'
-  head_title:   'TrustSys'
-  header_text:  'TrustSys AutoSrv'
-  footer_text:  '&copy; 2005-2012 kfl62'
-  footer_title: 'Ferenc-Loránt Kiss'
-  db_devel:     'demo_asrv'
-  db_test:      'demo_test'
-  db_prod:      'demo_asrv'
+  public:
+    controller: 'public'
+    views:      'htls'
+    layout:     'htls'
+    page:
+      title:        'Hostel Ltd.'
+      header:       'Hostel motto'
+      footer_text:  '&copy; 2005-2012 Hostel Ltd.'
+      footer_title: 'Ferenc-Loránt Kiss'
+  system:
+    page:
+      title:        'TrustSys - Hostel'
+      header:       'TrustSys Hostel'
+      footer_text:  '&copy; 2005-2012 kfl62'
+      footer_title: 'Ferenc-Loránt Kiss'
+
+  sass_dir:     'system/assets/stylesheets/htls'
+  css_dir:      'public/stylesheets/htls'
+  images_dir:   'public/images/htls'
+  css_path:     '/stylesheets/htls'
+  images_path:  '/images/htls'
+  i18n_path:    'htls'
+
+  db_devel:     'trst_htls'
+  db_test:      'trst_test'
+  db_prod:      'trst_htls'
