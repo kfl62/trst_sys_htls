@@ -3,6 +3,16 @@
 release date: **2014-xx-xx**
 
 
+* **feature v0.2.991**, v0.3.0 preparation
+   - feature date: **2014-09-16**
+   - bump version v0.2.991
+   - update CHANGELOG
+   - i18n update
+   - views cleanup, and `Htls::PartnerFirm` CRUD
+   - models generic skeletons, update
+   - assets js, update
+
+
 * **feature v0.2.990**, v0.3.0 preparation
    - feature date: **2014-08-20**
    - bump version v0.2.990
