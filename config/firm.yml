@@ -1,24 +1,25 @@
 firm:
   public:
-    controller: 'public'
-    views:      'htls'
-    layout:     'htls'
+    controller:     'public'
+    views:          'trst'
+    layout:         'layout'
     page:
       title:        'Hostel Ltd.'
       header:       'Hostel motto'
-      footer_text:  '&copy; 2005-2012 Hostel Ltd.'
+      footer_text:  '&copy; 2005-2014 Hostel Ltd.'
       footer_title: 'Ferenc-Loránt Kiss'
   system:
     page:
       title:        'TrustSys - Hostel'
       header:       'TrustSys Hostel'
-      footer_text:  '&copy; 2005-2012 kfl62'
+      footer_text:  '&copy; 2005-2014 kfl62'
       footer_title: 'Ferenc-Loránt Kiss'
 
-  sass_dir:     'system/assets/stylesheets/htls'
-  css_dir:      'public/stylesheets/htls'
+  sass_dir:     'system/assets/stylesheets'
+  css_dir:      'public/stylesheets'
+  css_path:     '/stylesheets'
+  css_file:     'htls.css'
   images_dir:   'public/images/htls'
-  css_path:     '/stylesheets/htls'
   images_path:  '/images/htls'
   i18n_path:    'htls'
   js_path:      'htls'
